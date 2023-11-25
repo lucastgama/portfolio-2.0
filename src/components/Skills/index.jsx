@@ -72,7 +72,7 @@ const Skills = () => {
           </S.ContainerUpgrade>
         </S.SkillTree>
         <S.ContainerModel>
-          <Canvas shadows camera={{ fov: 25 }}>
+          <Canvas camera={{ fov: 25 }}>
             <OrbitControls
               makeDefault
               minAzimuthAngle={5}
@@ -82,7 +82,8 @@ const Skills = () => {
               maxPolarAngle={1.5}
             />
             <Person position={[0, -1, 0]} />
-            <Ground receiveShadow position={[0, -1, 0]} />
+            <hemisphereLight intensity={1} />
+            <Ground position={[0, -1, 0]} />
             <Environment resolution={256} preset="city" />
           </Canvas>
         </S.ContainerModel>
