@@ -3,19 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import BtnGold from "../Button";
 import { logos } from "../../Variables";
-import { motion } from "framer-motion";
-import { slideRightToLeft } from "../../utils/motion";
 
 const renderLogos = () => {
   return logos.map((logo, index) => (
-    <motion.div
-      key={index}
-      variants={slideRightToLeft(index)}
-      initial="hidden"
-      whileInView="show"
-    >
       <S.Logo key={index} src={logo.icon} alt={logo.alt} title={logo.alt} />
-    </motion.div>
   ));
 };
 

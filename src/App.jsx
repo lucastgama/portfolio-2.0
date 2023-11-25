@@ -1,9 +1,9 @@
 import { SkillProvider } from "./context/SkillContext";
 import { HeroProvider } from "./context/HeroContext";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-
-import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Home />
         </HeroProvider>
         <About />
+        <Skills />
       </SkillProvider>
     </>
   );
