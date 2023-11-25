@@ -3,13 +3,13 @@ import avatar from "/images/background-1.png";
 import bedroom from "/images/background-2.png";
 import airplane from "/images/background-3.png";
 
-
 import * as S from "./styles";
 import Hero from "../Hero/Hero";
 
 const Home = () => {
   return (
     <S.Section id="home">
+      <S.Spinner />
       <S.ContainerModal>
         <Hero />
       </S.ContainerModal>

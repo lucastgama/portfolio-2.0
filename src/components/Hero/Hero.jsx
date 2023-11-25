@@ -7,6 +7,8 @@ import { HeroContext } from "../../context/HeroContext";
 function Hero() {
   const { heroOption } = useContext(HeroContext);
 
+  
+
   const RenderBackground = () => {
     switch (heroOption) {
       case 1:

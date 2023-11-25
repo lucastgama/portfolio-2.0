@@ -30,13 +30,14 @@ function Ring() {
     material.color.copy(color);
   });
 
+
   return (
     <>
       <hemisphereLight intensity={1.5} />
       <Plane position={[0, 1.9, -2.7]} args={[2.3, 2, 30, 30]} ref={planeRef}>
         <meshBasicMaterial attach="material" color={0xffffff} wireframe />
       </Plane>
-      <Hangar position={[0,0,9]}/>
+      <Hangar position={[0, 0, 9]} />
       <Idle />
       <GroundSolid />
       <Environment preset="city" resolution={512} />
