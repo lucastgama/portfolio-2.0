@@ -15,7 +15,7 @@ const Bedroom = () => {
       <Room scale={0.3} />
       <GroundRoom />
       <Environment resolution={512} preset="forest" />
-      
+
       <OrbitControls
         makeDefault
         maxDistance={5}

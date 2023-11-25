@@ -1,4 +1,4 @@
-import { MeshDistortMaterial, MeshReflectorMaterial } from "@react-three/drei";
+import { MeshReflectorMaterial } from "@react-three/drei";
 
 const GroundSolid = () => {
   return (
