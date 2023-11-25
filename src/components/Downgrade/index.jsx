@@ -16,25 +16,13 @@ const Downgrade = ({ title, description, value, icon }) => {
 
   return (
     <>
-      {value === 4 ? (
-        <Link to="/404">
-          <S.SquareDowngrade
-            className={isActive ? "active" : ""}
-            onClick={handleClick}
-            title={information}
-          >
-            <S.Icon src={icon} alt={title} />
-          </S.SquareDowngrade>
-        </Link>
-      ) : (
-        <S.SquareDowngrade
-          className={isActive ? "active" : ""}
-          onClick={handleClick}
-          title={information}
-        >
-          <S.Icon src={icon} alt={title} />
-        </S.SquareDowngrade>
-      )}
+      <S.SquareDowngrade
+        className={isActive ? "active" : ""}
+        onClick={handleClick}
+        title={information}
+      >
+        <S.Icon src={icon} alt={title} />
+      </S.SquareDowngrade>
     </>
   );
 };
