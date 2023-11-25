@@ -40,7 +40,7 @@ function Ring() {
       <Hangar position={[0, 0, 9]} />
       <Idle />
       <GroundSolid />
-      <Environment preset="city" resolution={512} />
+      <Environment preset="city" resolution={256} />
 
       <mesh
         scale={0.8}
@@ -48,7 +48,7 @@ function Ring() {
         rotation={[-Math.PI / 2, 0, Math.PI / 2.5]}
       >
         <ringGeometry args={[0.9, 1, 36, 5]} />
-        <meshStandardMaterial color="white" roughness={1} />
+        <meshStandardMaterial color={"#d5d5d5"} roughness={1} />
       </mesh>
       <Effects />
     </>

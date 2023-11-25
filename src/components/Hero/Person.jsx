@@ -10,7 +10,7 @@ function Person() {
       camera={{ position: [0, 0, 4], fov: 50 }}
     >
       <color attach="background" args={["#191920"]} />
-      <fog attach="fog" args={["#191920", 5, 13]} />
+      <fog attach="fog" args={["#191920", 1, 10]} />
       <Ring />
       <OrbitControls
         target={[0, 1.2, 0]}
