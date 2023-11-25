@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { SkillContext } from "../../Context/SkillContext";
+import { SkillContext } from "../../context/SkillContext";
 import * as S from "./styles";
 import { useEffect } from "react";
 

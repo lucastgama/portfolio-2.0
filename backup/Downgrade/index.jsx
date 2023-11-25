@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import { SkillContext } from "../../Context/SkillContext";
+import { SkillContext } from "../../context/SkillContext";
 import * as S from "./styles";
 
 const Downgrade = ({ title, description, value, icon }) => {

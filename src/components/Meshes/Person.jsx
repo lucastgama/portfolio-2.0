@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
-import { SkillContext } from "../../Context/SkillContext";
+import { SkillContext } from "../../context/SkillContext";
 
 export function Person(props) {
   const group = useRef();

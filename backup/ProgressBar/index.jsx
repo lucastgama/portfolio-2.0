@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { SkillContext } from "../../Context/SkillContext";
+import { SkillContext } from "../../context/SkillContext";
 import * as S from "./styles";
 
 const ProgressBar = ({ title, value }) => {

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
-import { SkillContext } from "../../Context/SkillContext";
+import { SkillContext } from "../../context/SkillContext";
 import * as S from "./styles";
 import ProgressBar from "../ProgressBar";
 import Upgrade from "../Upgrade";

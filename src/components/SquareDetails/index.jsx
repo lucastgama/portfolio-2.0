@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { HeroContext } from "../../Context/HeroContext";
+import { HeroContext } from "../../context/HeroContext";
 
 import * as S from "./styles";
 
