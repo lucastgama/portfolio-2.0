@@ -25,7 +25,7 @@ export const Title = styled.h2`
   align-items: center;
   justify-content: center;
   font-size: ${V.fontSize[2]};
-  color: ${V.colors.headerColor};
+  color: ${V.colors.primaryColor};
   text-transform: uppercase;
   font-weight: 700;
   margin: 15px 0;

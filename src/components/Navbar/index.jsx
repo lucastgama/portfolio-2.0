@@ -40,7 +40,7 @@ const Navbar = () => {
   const renderLinks = () =>
     navLinks.map((link) => (
       <S.Link key={link.to}>
-        <Link spy={true} smooth={true} offset={-20} duration={350} to={link.to}>
+        <Link spy={true} smooth={true} offset={-30} duration={350} to={link.to}>
           {link.name}
         </Link>
       </S.Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
     <S.Header $changeColor={shouldChangeBackground}>
       <S.Navbar>
         <S.Logo>
-          <Link spy={true} smooth={true} offset={-20} duration={350} to="home">
+          <Link spy={true} smooth={true} offset={-30} duration={350} to="home">
             Lucas Gama
           </Link>
         </S.Logo>

@@ -22,7 +22,7 @@ export const Title = styled.h2`
   font-size: ${V.fontSize[2]};
   color: ${V.colors.headerColor};
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   font-weight: 700;
   &:after {
     content: "Quem sou eu ?";
@@ -76,9 +76,10 @@ export const ContainerInformation = styled.div`
 export const WhoIam = styled.h3`
   color: ${V.colors.whiteSmok};
   font-size: ${V.fontSize[6]};
-
+  margin-bottom: 1em;
   @media screen and (max-width: 1024px) {
     font-size: ${V.fontSize[7]};
+    margin-bottom: 0.5em;
   }
 `;
 
@@ -86,8 +87,10 @@ export const Description = styled.p`
   color: ${V.colors.lightGray};
   font-size: ${V.fontSize[7]};
   font-weight: 300;
+  margin-bottom: 1em;
   @media screen and (max-width: 1024px) {
     font-size: ${V.fontSize[8]};
+    margin-bottom: 0.5em;
   }
 `;
 
@@ -114,24 +117,16 @@ export const Logo = styled.img`
 
 export const ContainerPicture = styled.div`
   position: relative;
+  border-radius: 25px;
+  border: 2px solid ${V.colors.headerColor};
+  padding: 20px;
   width: 400px;
   height: 450px;
-  &:after {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    background: ${V.colors.headerColor};
-    width: 100%;
-    height: 100%;
-  }
   @media screen and (max-width: 1024px) {
     width: 175px;
     height: 175px;
     border-radius: 50%;
-    &:after {
-      background: transparent;
-    }
+    padding: 10px;
   }
 `;
 
@@ -142,6 +137,7 @@ export const Picture = styled.img`
   object-position: center;
   object-fit: cover;
   z-index: 1;
+  border-radius: 25px;
 
   @media screen and (max-width: 1024px) {
     border-radius: 50%;

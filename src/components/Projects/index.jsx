@@ -12,23 +12,18 @@ const Projects = () => {
   const settings = {
     className: "center",
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     swipeToSlide: true,
+    arrows:false,
     responsive: [
       {
         breakpoint: 1366,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 1000,
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 700,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 2,
         },
@@ -47,18 +42,20 @@ const Projects = () => {
       <S.Container className="mx-width">
         <S.Title>Projetos</S.Title>
       </S.Container>
-      <Slider {...settings}>
-        {projects.map((project, index) => (
-          <Link  key={index} to={project.link} target="blank">
-            <Card
-              languages={project.languages}
-              title={project.title}
-              description={project.description}
-              image={project.image}
-            />
-          </Link>
-        ))}
-      </Slider>
+      <div className="mx-width">
+        <Slider {...settings}>
+          {projects.map((project, index) => (
+            <Link key={index} to={project.link} target="blank">
+              <Card
+                languages={project.languages}
+                title={project.title}
+                description={project.description}
+                image={project.image}
+              />
+            </Link>
+          ))}
+        </Slider>
+      </div>
     </S.Section>
   );
 };

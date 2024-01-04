@@ -10,12 +10,12 @@ export const colors = {
 };
 
 export const fontSize = {
-  1: "4rem",
-  2: "3.5rem",
-  3: "3rem",
-  4: "2.5rem",
-  5: "2rem",
-  6: "1.5rem",
+  1: "3rem",
+  2: "2.7rem",
+  3: "2.5rem",
+  4: "2rem",
+  5: "1.5rem",
+  6: "1.25rem",
   7: "1rem",
   8: "0.9rem",
   9: "0.8rem",
@@ -25,15 +25,15 @@ export const fontSize = {
 };
 
 export const skills = [
-  { title: "HTML + CSS", value: 90, description: "" },
+  { title: "HTML + CSS", value: 95, description: "" },
   { title: "JavaScript", value: 80, description: "" },
-  { title: "Node.js", value: 50, description: "" },
-  { title: "React", value: 80, description: "" },
-  { title: "Next.js", value: 65, description: "" },
-  { title: "PHP", value: 75, description: "" },
-  { title: "WordPress", value: 90, description: "" },
-  { title: "Mysql", value: 70, description: "" },
-  { title: "Three.js", value: 30, description: "" },
+  { title: "Node.js", value: 80, description: "" },
+  { title: "React", value: 85, description: "" },
+  { title: "Next.js", value: 75, description: "" },
+  { title: "PHP", value: 70, description: "" },
+  { title: "WordPress", value: 80, description: "" },
+  { title: "Mysql", value: 90, description: "" },
+  { title: "Three.js", value: 65, description: "" },
 ];
 export const nullSkills = [
   { title: "Undefined", value: 0, description: "" },

@@ -22,7 +22,7 @@ export const Title = styled.h2`
   font-size: ${V.fontSize[2]};
   color: ${V.colors.headerColor};
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   font-weight: 700;
   &:after {
     content: "Diga um olá";

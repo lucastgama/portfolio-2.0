@@ -6,7 +6,7 @@ import { logos } from "../../Variables";
 
 const renderLogos = () => {
   return logos.map((logo, index) => (
-      <S.Logo key={index} src={logo.icon} alt={logo.alt} title={logo.alt} />
+    <S.Logo key={index} src={logo.icon} alt={logo.alt} title={logo.alt} />
   ));
 };
 
@@ -20,28 +20,20 @@ const About = () => (
       <S.ContainerInformation>
         <S.WhoIam>Sou Comunicativo e Criativo</S.WhoIam>
         <S.Description>
-          Desde que comecei minha jornada como desenvolvedor web, fiz sites de
-          vendas usando Wordpress e Next.js, realizei diversas demandas e fiz
-          diversos sites com React e Next. Atualmente estou envolvido com
-          Three.js, porque gosto de dar vida às ideias dos clientes, gosto da
-          arte que vai virar o projeto e dar experiencias únicas para os
-          usuários. Com minhas habilidades, uma boa comunicação e bastante café,
-          entendo que se pode realizar qualquer coisa.
+          Olá! Sou um desenvolvedor full stack apaixonado por transformar ideias
+          em experiências digitais envolventes. Especializado em JavaScript,
+          busco constantemente aprimorar minhas habilidades para oferecer
+          soluções eficientes e inovadoras.
         </S.Description>
         <S.Description>
-          Sou curioso por natureza, sempre procuro algo novo para implementar e
-          deixar unico o site, minhas fontes de pesquisas são as documentações
-          e, o meu favorito, stackoverflow, gosto de trabalhar em equipe, porque
-          entendo que é assim que se evolui, pois procuro sempre melhorar as
-          minhas competências profissionais e pessoais.
+          Comprometido com código sólido e limpo, acredito na importância de uma
+          abordagem colaborativa. Trabalho bem em equipe, valorizando a troca de
+          conhecimento e a sinergia coletiva.
         </S.Description>
         <S.Description>
-          Se você estiver procurando por um desenvolvedor web criativo e
-          experiente para o seu próximo projeto, sinta-se à vontade para entrar
-          em contato comigo. Estou sempre aberto a novas oportunidades e
-          desafios, e adoraria ajudá-lo a criar uma experiência online incrível
-          para seus usuários. Obrigado por visitar meu site e espero que você
-          goste do que vê!
+          Se você procura um profissional dedicado, focado em resultados e
+          pronto para enfrentar desafios, estou animado para contribuir para o
+          sucesso do seu próximo projeto. Vamos criar algo incrível juntos!
         </S.Description>
         <S.Logos>{renderLogos()}</S.Logos>
         <BtnGold>

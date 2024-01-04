@@ -21,7 +21,7 @@ export const Title = styled.h2`
   font-size: ${V.fontSize[2]};
   color: ${V.colors.primaryColor};
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   font-weight: 700;
   &:after {
     content: "Mais sobre mim";
@@ -126,7 +126,7 @@ export const UpgradesTemplate = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding: 15px 0;
+  padding: 0.4em 0;
   gap: 10px 20px;
   @media screen and (max-width: 1024px) {
     gap: 0.8em;

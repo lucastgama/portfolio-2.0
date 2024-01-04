@@ -6,7 +6,7 @@ const GroundSolid = () => {
       <planeGeometry args={[25, 25]} />
       <MeshReflectorMaterial
         blur={[300, 100]}
-        resolution={512}
+        resolution={206}
         mixBlur={1}
         mixStrength={80}
         roughness={1}
@@ -14,7 +14,7 @@ const GroundSolid = () => {
         minDepthThreshold={0.2}
         maxDepthThreshold={2}
         color="#050505"
-        metalness={0.9}
+        metalness={0.7}
       />
     </mesh>
   );
