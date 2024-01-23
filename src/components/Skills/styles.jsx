@@ -2,7 +2,7 @@ import styled from "styled-components";
 import * as V from "../../Variables";
 
 export const Section = styled.section`
-  background-color: ${V.colors.headerColor};
+  background-color: ${V.colors.primaryColor};
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -19,7 +19,7 @@ export const Title = styled.h2`
   align-items: center;
   justify-content: center;
   font-size: ${V.fontSize[2]};
-  color: ${V.colors.primaryColor};
+  color: ${V.colors.headerColor};
   text-transform: uppercase;
   margin-bottom: 16px;
   font-weight: 700;

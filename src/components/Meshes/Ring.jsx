@@ -1,10 +1,10 @@
-import { Environment, Plane, SpotLight } from "@react-three/drei";
+import { Plane, SpotLight } from "@react-three/drei";
 import { MathUtils } from "three";
 import { Effects } from "../Effect";
 import GroundSolid from "./GroundSolid";
 import { Idle } from "./Idle";
 import { useFrame } from "@react-three/fiber";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import * as THREE from "three"; // Certifique-se de adicionar esta linha
 import { Hangar } from "./Hangar";
 

@@ -1,4 +1,5 @@
 import { SkillProvider } from "./context/SkillContext";
+import { HeroProvider } from "./context/HeroContext";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -23,7 +24,9 @@ function App() {
     <Suspense fallback={<Loader />}>
       <SkillProvider>
         <Navbar />
-        <Home />
+        <HeroProvider>
+          <Home />
+        </HeroProvider>
         <About />
         <Skills />
         <Projects />

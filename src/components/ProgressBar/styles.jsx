@@ -78,10 +78,10 @@ export const ProgressBar = styled.div`
   @media screen and (max-width: 480px) {
     height: 0.7rem;
     margin: 5px 0 10px;
-    :after {
+    &:after {
       height: 0.7rem;
     }
-    :before {
+    &:before {
       height: 0.7rem;
     }
   }

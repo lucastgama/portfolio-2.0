@@ -2,11 +2,10 @@ import styled from "styled-components";
 import * as V from "../../Variables";
 
 export const Section = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: ${V.colors.primaryColor};
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 1.5em 0;
   @media screen and (max-width: 1024px) {
     padding: 1em 0;

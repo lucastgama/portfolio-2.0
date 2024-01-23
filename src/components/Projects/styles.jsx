@@ -2,14 +2,14 @@ import styled from "styled-components";
 import * as V from "../../Variables";
 
 export const Section = styled.section`
-  background: ${V.colors.secondaryColor};
-  width: 100%;
+  background-color: ${V.colors.primaryColor};
   display: flex;
+  align-items: center;
   flex-direction: column;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  padding: 1.5rem 0;
+  padding: 1.5em 0;
+  @media screen and (max-width: 1024px) {
+    padding: 1em 0;
+  }
 `;
 
 export const Container = styled.div`
@@ -25,7 +25,7 @@ export const Title = styled.h2`
   align-items: center;
   justify-content: center;
   font-size: ${V.fontSize[2]};
-  color: ${V.colors.primaryColor};
+  color: ${V.colors.headerColor};
   text-transform: uppercase;
   font-weight: 700;
   margin: 15px 0;
@@ -38,15 +38,15 @@ export const Title = styled.h2`
     letter-spacing: 1px;
   }
   @media screen and (max-width: 1024px) {
-    font-size: ${V.fontSize[3]};
-    &:after {
-      font-size: ${V.fontSize[10]};
-    }
-  }
-  @media screen and (max-width: 480px) {
     font-size: ${V.fontSize[4]};
     &:after {
       font-size: ${V.fontSize[11]};
+    }
+  }
+  @media screen and (max-width: 480px) {
+    font-size: ${V.fontSize[5]};
+    &:after {
+      font-size: ${V.fontSize[12]};
     }
   }
 `;

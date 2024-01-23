@@ -14,9 +14,7 @@ const Home = () => {
             <S.ContainerTextTitle>
               Lucas <br></br>Gama
             </S.ContainerTextTitle>
-            <S.ContainerTextSubtitle>
-              Desenvolvedor Full Stack
-            </S.ContainerTextSubtitle>
+            <S.ContainerTextSubtitle>Desenvolvedor web</S.ContainerTextSubtitle>
             <S.ContainerTextSubtitle>Freelancer</S.ContainerTextSubtitle>
           </S.ContainerText>
           <div></div>
